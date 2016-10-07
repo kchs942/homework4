@@ -6,13 +6,13 @@ public class ExamForWhile {
 		int number;
 		Scanner s=new Scanner(System.in);
 	    do{
-	    	System.out.println("1. 1ºÎÅÍ ÀÔ·ÂÇÑ ¼ö±îÁö ´õÇÏ±â");
-	    	System.out.println("2. ÃÖ´ë°ª/ÃÖ¼Ò°ª±¸ÇÏ±â");
-	    	System.out.println("3. ÀÔ·Â¹ÞÀº¼ýÀÚÀÇ ÇÕ°è¿Í Æò±Õ±¸ÇÏ±â");
-	    	System.out.println("4. ¿øÇÏ´Â ±¸±¸´Ü Ãâ·ÂÇÏ±â ");
-	    	System.out.println("5. Â¦¼ö´Ü/È¦¼ö´Ü Ãâ·ÂÇÏ±â");
-	    	System.out.println("6. Á¾·áÇÏ±â");
-	    	System.out.println("¿øÇÏ´Â ¸Þ´º´Â>>");
+	    	System.out.println("1. 1ë¶€í„° ìž…ë ¥í•œ ìˆ˜ê¹Œì§€ ë”í•˜ê¸°");
+	    	System.out.println("2. ìµœëŒ€ê°’/ìµœì†Œê°’êµ¬í•˜ê¸°");
+	    	System.out.println("3. ìž…ë ¥ë°›ì€ìˆ«ìžì˜ í•©ê³„ì™€ í‰ê· êµ¬í•˜ê¸°");
+	    	System.out.println("4. ì›í•˜ëŠ” êµ¬êµ¬ë‹¨ ì¶œë ¥í•˜ê¸°  ");
+	    	System.out.println("5. ì§ìˆ˜ë‹¨/í™€ìˆ˜ë‹¨ ì¶œë ¥í•˜ê¸°");
+	    	System.out.println("6. ì¢…ë£Œí•˜ê¸°");
+	    	System.out.println("ì›í•˜ëŠ” ë©”ë‰´ëŠ”>>");
 	    	number=s.nextInt();
 	    	
 	    		if(number==1)
@@ -33,7 +33,7 @@ public class ExamForWhile {
 	    	
 	    }
 	    while(number==6); 
-	    System.out.print("Á¾·áµÇ¾ú½À´Ï´Ù");
+	    System.out.print("ì¢…ë£Œí•˜ì…¨ìŠµë‹ˆë‹¤.");
 	   
 	    	
 	    	

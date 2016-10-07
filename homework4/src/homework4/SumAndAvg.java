@@ -1,14 +1,14 @@
 package homework4;
 
+import java.util.Scanner;
+
 public class SumAndAvg {
-
-	void input(){
-		
-		print();
-	}
-
-	void print(){
-		
-		
-	}
+ 	  void input(){
+ 		  
+ 		  
+ 	  }
+ 	  void print(){
+ 		  
+ 		  
+ 	  }
 }
