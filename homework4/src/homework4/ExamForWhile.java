@@ -16,19 +16,19 @@ public class ExamForWhile {
 	    	number=s.nextInt();
 	    	
 	    		if(number==1)
-	    			new SumOfNumbers();
+	    			new SumOfNumbers().input();
 	    		
 	    		else if(number==2)
-	    			new MaxAndMin();
+	    			new MaxAndMin().input();
 	    		
 	    		else if(number==3)
-	    			new SumAndAvg();
+	    			new SumAndAvg().input();
 	    		
 	    		else if(number==4)
-	    			new GuGuDan();
+	    			new GuGuDan().input();
 	    		
 	    		else if(number==5)
-	    			new GuGuDan2();
+	    			new GuGuDan2().input();
 	    		
 	    	
 	    }
