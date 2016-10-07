@@ -32,11 +32,8 @@ public class ExamForWhile {
 	    		
 	    	
 	    }
-	    while(number==6); 
+	    while(number!=6); 
 	    System.out.print("종료하셨습니다.");
-	   
-	    	
-	    	
 	   
 
 	}
