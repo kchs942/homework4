@@ -2,17 +2,28 @@ package homework4;
 import java.util.*;
 public class SumOfNumbers {
        int num;
+       String q;
+     
 	void input(){
+		do{
+			this.q="";
+			
 		Scanner s=new Scanner(System.in);
-		System.out.print("¸¶Áö¸·¼ö¸¦ ÀÔ·Â");
-		num=s.nextInt();
-		
+		System.out.print("ë§ˆì§€ë§‰ ìˆ˜ë¥¼ ìž…ë ¥(Q:ì¢…ë£Œ)");
+		if(s.hasNextInt()){
+		this.num=s.nextInt();
 		print();
+		}
+		else this.q=s.next();
+		}
+		while(!q.equals("Q"));
 	}
 
 	void print(){
-	
-		
+		  int hap=0;
+		for(int i=1;i<=this.num;i++)
+			 hap+=i;
+		System.out.println("ì´í•©ì€"+hap+"ìž…ë‹ˆë‹¤");
 	}
 	
 	
